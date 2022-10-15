@@ -55,8 +55,7 @@ and dbus imposes a same-user requirement(i.e. sudo can't use autokey-run, or at 
 input group is used instead of just calling macrobie with sudo to let evdev work.
 
 3. When macrobie is run it presents a shell menu with options to add 
-and configure devices. Right now all it does is walk through the add device wizard, prompts for which keys you want bound, and then immediately goes 
-to a test that triggers a "hello world" when the bound keys are pressed. Everything is done with evdev.
+and configure devices. Everything is done with evdev.
 
 4. Event triggers are performed by calling autokey-run, which has three modes: script, phrase, folder popup. These map to the titles of scripts, 
 phrases, and folders stored within Autokey. So, there's no need to manage the content of the triggered macro within macrobie, it just needs to supply 
