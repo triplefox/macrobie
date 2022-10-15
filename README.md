@@ -82,33 +82,33 @@ I believe the next things to do would be:
 Checklist for testing Macrobie functionality:
 
 1. Startup behaviors
-  *1a. No config data(DebugWipeConfig)
-  *1b. Existing config data
-  1c. Extraneous config data
-  1d. Unreadable config data
+  - [x] 1a. No config data(DebugWipeConfig)
+  - [x] 1b. Existing config data
+  - [x] 1c. Extraneous config data
+  - [x] 1d. Unreadable config data
 2. Add device
-  *2a. Add a new device
-  *2b. Quit without saving after adding the device and verify that it was not written
-  *2c. Save and verify that the save identified the device with the correct data
-  *2c.1. Identified by name and local address
-  *2c.2. Identified by full USB address
-  *2c.3. Both name and full address
-  *2d. Add two of the same device and make sure they are disambiguated correctly.
+  - [x] 2a. Add a new device
+  - [x] 2b. Quit without saving after adding the device and verify that it was not written
+  - [x] 2c. Save and verify that the save identified the device with the correct data
+  - [x] 2c.1 Identified by name and local address
+  - [x] 2c.2 Identified by full USB address
+  - [x] 2c.3 Both name and full address
+  - [x] 2d. Add two of the same device and make sure they are disambiguated correctly.
 3. Remove device
-  *3a. Attempt to remove devices when none are added
-  *3b. Remove device successfully
-  *3c. Verify that device removal was saved
+  - [x] 3a. Attempt to remove devices when none are added
+  - [x] 3b. Remove device successfully
+  - [x] 3c. Verify that device removal was saved
 4. Edit device
-  *4a. Add a new binding
-  *4a.1. Add a phrase binding
-  *4a.2. Add a script binding
-  *4a.3. Add a folder binding
-  *4a.4. Add a layer change binding
-  *4b. Remove a binding, then cancel. Verify that it still exists.
-  *4c. Remove a binding, then save. Verify that it was removed.
+  - [x] 4a. Add a new binding
+  - [x] 4a.1 Add a phrase binding
+  - [x] 4a.2 Add a script binding
+  - [x] 4a.3 Add a folder binding
+  - [x] 4a.4 Add a layer change binding
+  - [x] 4b. Remove a binding, then cancel. Verify that it still exists.
+  - [x] 4c. Remove a binding, then save. Verify that it was removed.
 5. Run
-  *5a. Verify phrase binding
-  *5b. Verify script binding
-  *5c. Verify folder binding
-  *5d. Verify layer change binding
-  *5e. Can we exit cleanly?
+  - [x] 5a. Verify phrase binding
+  - [x] 5b. Verify script binding
+  - [x] 5c. Verify folder binding
+  - [x] 5d. Verify layer change binding
+  - [x] 5e. Can we exit cleanly?
